@@ -9,5 +9,3 @@ yt = YouTube(url);
 video = yt.streams.get_by_resolution("720p");
 video.download(output_path='D:/');
 print('downloaded');
-
-#thanks for watching 
